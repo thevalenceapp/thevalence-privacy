@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - The Valence</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0A0A0A;
+            color: #E0E0E0;
+            line-height: 1.7;
+            padding: 40px 20px;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 800;
+            color: #FFFFFF;
+            margin-bottom: 8px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #00CED1;
+            margin-top: 36px;
+            margin-bottom: 12px;
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #FFFFFF;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+        p {
+            margin-bottom: 14px;
+            color: #B0B0B0;
+            font-size: 15px;
+        }
+        ul {
+            margin-bottom: 14px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #B0B0B0;
+            font-size: 15px;
+        }
+        a {
+            color: #00CED1;
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
+        .subtitle {
+            color: #666;
+            font-size: 13px;
+            margin-bottom: 32px;
+        }
+        strong { color: #E0E0E0; }
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #1E1E1E;
+            color: #555;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>The Valence</h1>
+<p class="subtitle">Privacy Policy &mdash; Last updated: March 25, 2026</p>
+
+<h2>Your Privacy Matters</h2>
+<p>The Valence is designed with privacy at its core. We believe your recovery journey is deeply personal, and your data should stay that way. This policy describes what data we collect, how it is used, and your rights regarding that data.</p>
+
+<h2>Data Controller</h2>
+<p>The data controller responsible for your data is:</p>
+<p><strong>Furkan Dogan</strong><br>
+Email: <a href="mailto:thevalenceapp@gmail.com">thevalenceapp@gmail.com</a></p>
+
+<h2>Data Storage</h2>
+<p>All your personal data &mdash; including journal entries, voice memos, mood logs, reason wall items, recovery progress, and app settings &mdash; is stored locally on your device using on-device persistence. We do not operate servers that store your personal data. We do not have access to your locally stored information.</p>
+
+<h2>AI-Powered Features and Data Processing</h2>
+<p>The Valence uses Google's Gemini API to provide AI-powered features. When you use these features, certain data is transmitted through our secure proxy server to Google's servers for processing. Your data is not stored on our proxy &mdash; it is forwarded in real time and discarded immediately. Specifically:</p>
+
+<h3>AI Coach (Mentor)</h3>
+<p>When you send messages to the AI Coach, your message text is sent to Google's Gemini API. The AI generates a response based on your message and your current recovery context (such as your no-contact day count and mood). Your name may be included in the request to personalize coaching. No conversation history is stored on external servers.</p>
+
+<h3>Journal AI Insight</h3>
+<p>When you request an AI analysis of a journal entry, the text content of that specific entry is sent to Google's Gemini API for emotional pattern analysis. The AI returns a structured analysis (emotional pattern, risk assessment, insight, and suggested action) which is then stored locally on your device alongside the entry.</p>
+
+<h3>Voice Recording AI Analysis</h3>
+<p>When you record a voice memo and the AI analysis runs, the audio recording is sent to Google's Gemini API for transcription and emotional analysis. The resulting transcript, mood assessment, and risk score are stored locally on your device. A visible recording indicator is displayed at all times during voice recording.</p>
+
+<h3>Daily Protocol and Overview Analysis</h3>
+<p>When you generate an AI report in the Overview section or use the Daily Protocol's AI features, aggregated recovery data (such as mood patterns, streak information, and activity statistics) is sent to Google's Gemini API. No raw journal text or voice recordings are included in these requests unless you explicitly trigger an analysis. Results are cached locally on your device.</p>
+
+<p>All AI processing is performed by Google's Gemini API. Google's handling of this data is governed by <a href="https://ai.google.dev/terms">Google's API Terms of Service</a> and their <a href="https://policies.google.com/privacy">Privacy Policy</a>. We do not store any data sent to or received from Google on our own servers.</p>
+
+<h2>Voice Recordings</h2>
+<p>The Valence includes a voice recording feature for personal voice memos. In accordance with applicable requirements:</p>
+<ul>
+    <li>A clearly visible recording indicator (animated button and status label) is displayed whenever a recording is in progress.</li>
+    <li>Voice recordings are stored locally on your device.</li>
+    <li>If you choose to use AI analysis, the audio data is sent to Google's Gemini API for transcription and analysis, then the results are stored locally.</li>
+    <li>You can delete any voice recording at any time from within the app.</li>
+</ul>
+
+<h2>Subscriptions</h2>
+<p>The Valence offers optional premium subscriptions managed through Apple's App Store and RevenueCat. When you subscribe:</p>
+<ul>
+    <li>Payment is processed entirely by Apple. We do not collect or store your payment information.</li>
+    <li>RevenueCat receives an anonymous user identifier to manage your subscription status. No personal information is shared with RevenueCat.</li>
+    <li>Subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period.</li>
+    <li>You can manage or cancel your subscription at any time in your device's App Store settings.</li>
+</ul>
+
+<h2>Third-Party Services</h2>
+<p>The Valence uses the following third-party services:</p>
+<ul>
+    <li><strong>Google Gemini API</strong> &mdash; for AI coaching, journal analysis, voice transcription, and recovery insights.</li>
+    <li><strong>Cloudflare Workers</strong> &mdash; as a secure proxy to route AI requests. No user data is stored on Cloudflare.</li>
+    <li><strong>RevenueCat</strong> &mdash; for subscription management using an anonymous user identifier.</li>
+    <li><strong>Firebase (Google)</strong> &mdash; for core app infrastructure and performance monitoring. No personal data is collected through Firebase.</li>
+    <li><strong>Google Fonts</strong> &mdash; for typography rendering within the app.</li>
+</ul>
+<p>No advertising SDKs, analytics tracking tools, or behavioral profiling services are used in The Valence.</p>
+
+<h2>What We Do NOT Collect</h2>
+<p>We want to be explicit about what we do not do:</p>
+<ul>
+    <li>We do not require account creation, login, or registration.</li>
+    <li>We do not collect your email address, phone number, or any contact information.</li>
+    <li>We do not track your location or access your contacts, photos, or calendar.</li>
+    <li>We do not use any permanent device-based identifiers to track you.</li>
+    <li>We do not use advertising identifiers or tracking pixels.</li>
+    <li>We do not sell, share, or transfer any data to third parties for advertising, marketing, or profiling purposes.</li>
+    <li>We do not use cookies or web-based tracking mechanisms.</li>
+</ul>
+
+<h2>Data Retention and Deletion</h2>
+<p>Since all data is stored locally on your device:</p>
+<ul>
+    <li>You can delete individual entries (journal, voice memos, reason wall items) at any time from within the app.</li>
+    <li>You can reset all app data using the "Reset All Data" option in Settings, which permanently erases all locally stored information.</li>
+    <li>Uninstalling the app removes all locally stored data from your device.</li>
+    <li>Data sent to Google's Gemini API for processing is handled according to Google's data retention policies and is not retained by us.</li>
+</ul>
+
+<h2>User Consent</h2>
+<p>Before your first AI interaction, the app displays an explicit consent dialog explaining that your messages or recordings will be sent to Google's Gemini API for processing. You must accept this dialog to use AI features. You can choose not to use AI features, in which case no data is transmitted externally. All non-AI features (journaling, no-contact tracking, mood logging, articles) work fully offline.</p>
+
+<h2>Data Security</h2>
+<p>All data stored on your device benefits from the security protections provided by your device's operating system, including device encryption. Communications with external APIs use HTTPS encryption. We recommend that you protect your device with a passcode or biometric authentication to further secure your data.</p>
+
+<h2>Children</h2>
+<p>The Valence is intended for users aged 12 and older. We do not knowingly collect data from children under 12. If you believe a child under 12 has used the app, please contact us.</p>
+
+<h2>Your Rights (KVKK / GDPR)</h2>
+<p>If you are located in Turkey or the European Economic Area, you have the right to:</p>
+<ul>
+    <li>Access your personal data (all data is already visible to you in the app).</li>
+    <li>Delete your data at any time using the "Reset All Data" option in Settings.</li>
+    <li>Withdraw consent for AI processing by simply not using AI features.</li>
+    <li>Request information about how your data is processed by contacting us.</li>
+</ul>
+<p>Since all personal data is stored locally on your device and we do not maintain user accounts or databases, most data rights are automatically fulfilled by the app's design.</p>
+
+<h2>Data Breach Notification</h2>
+<p>In the unlikely event of a data breach affecting any user data processed through our services, we will notify affected users in accordance with applicable law by updating this privacy policy and, where possible, through in-app notification.</p>
+
+<h2>Changes to This Policy</h2>
+<p>We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+<h2>Contact</h2>
+<p>If you have questions about this privacy policy or wish to exercise your data rights, contact us at <a href="mailto:thevalenceapp@gmail.com">thevalenceapp@gmail.com</a></p>
+
+<div class="footer">
+    &copy; 2026 Furkan Dogan. All rights reserved.
+</div>
+
+</body>
+</html>
