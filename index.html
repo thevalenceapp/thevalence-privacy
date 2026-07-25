@@ -72,25 +72,26 @@
 <body>
 
 <h1>The Valence</h1>
-<p class="subtitle">Privacy Policy &mdash; Last updated: March 27, 2026</p>
+<p class="subtitle">Privacy Policy &mdash; Last updated: July 25, 2026</p>
 
 <h2>Privacy First</h2>
-<p>The Valence is designed with privacy at its core. Most recovery data is stored locally on your device. When you use AI-powered features, selected data is sent for processing as described below. This policy describes what data we collect, how it is used, and your rights regarding that data.</p>
+<p>The Valence is designed with privacy at its core. Most recovery data is stored locally on your device. When you use AI-powered features, selected data is sent for processing as described below. We also keep a minimal account record and, as of this update, collect advertising-measurement data so we can understand which of our own ad campaigns bring users to the app. This policy describes what data we collect, how it is used, and your rights regarding that data.</p>
 
 <h2>Data Controller</h2>
 <p>The data controller responsible for your data is:</p>
 <p><strong>Furkan Dogan</strong><br>
-Email: <a href="/cdn-cgi/l/email-protection#fa8e929f8c9b969f94999f9b8a8aba9d979b9396d4999597"><span class="__cf_email__" data-cfemail="7b0f131e0d1a171e15181e1a0b0b3b1c161a121755181416">[email&#160;protected]</span></a></p>
+Email: <a href="mailto:info@thevalence.app">info@thevalence.app</a></p>
 
 <h2>Data Storage</h2>
-<p>Most personal data &mdash; including journal entries, voice memos, mood logs, reason wall items, recovery progress, and app settings &mdash; is stored locally on your device using on-device persistence. We do not maintain user accounts or a server-side database of your recovery data.</p>
+<p>Most personal data &mdash; including journal entries, voice memos, mood logs, reason wall items, quiz answers, coach conversations, recovery progress, and app settings &mdash; is stored locally on your device using on-device persistence.</p>
+<p>We maintain a minimal server-side account record (Google Firebase, using an anonymous identifier) containing: your first name if you entered one, your app language, your subscription/trial status, and basic activity timestamps used to schedule reminders. Your recovery content itself &mdash; journals, chats, voice memos, quiz answers &mdash; is <strong>not</strong> stored in this record.</p>
 
 <h2>AI-Powered Features and Data Processing</h2>
 <p>The Valence uses Google's Gemini API to provide the following AI-powered features: <strong>AI Mentor</strong>, <strong>Journal AI Insight</strong>, <strong>Voice Analysis</strong>, <strong>Daily Protocol</strong>, and <strong>Command Center (Weekly Report)</strong>.</p>
 
 <p>When you use any of these features, the following categories of data may be sent to Google Gemini for processing:</p>
 <ul>
-    <li><strong>Content you create</strong> &mdash; such as messages, journal text, voice recordings, and recent conversation context when needed</li>
+    <li><strong>Content you create</strong> &mdash; such as messages, journal text, voice recordings, screenshots you choose to share, and recent conversation context when needed</li>
     <li><strong>Recovery context</strong> &mdash; such as your no-contact day count, streak, mood, stability score, urge/risk level, and check-in signals</li>
     <li><strong>Activity statistics</strong> &mdash; such as SOS usage, no-contact breaches, and journal, article, or voice activity counts</li>
     <li><strong>Personalization details</strong> &mdash; such as your first name if entered, selected coach, and active focus</li>
@@ -118,7 +119,7 @@ Email: <a href="/cdn-cgi/l/email-protection#fa8e929f8c9b969f94999f9b8a8aba9d979b
 <p>All AI processing is performed by Google's Gemini API. Google's handling of this data is governed by <a href="https://ai.google.dev/terms">Google's API Terms of Service</a> and their <a href="https://policies.google.com/privacy">Privacy Policy</a>.</p>
 
 <h2>User Consent</h2>
-<p>A one-time AI Data Sharing consent screen is shown during the onboarding tour before the user reaches the main app. The screen discloses which AI features send data, what categories of data may be sent, and that data is routed through Cloudflare Workers and processed by Google Gemini. If the user declines or skips the tour, the same consent dialog reappears when opening any AI-enabled feature.</p>
+<p>A one-time AI Data Sharing consent dialog is shown before the first use of any AI-powered feature. The dialog discloses which AI features send data, what categories of data may be sent, and that data is routed through Cloudflare Workers and processed by Google Gemini.</p>
 <p>You must tap "Allow AI Processing" to use AI features. If you tap "Not Now," no data is sent and AI features remain disabled. Non-AI features (journaling, no-contact tracking, mood logging, articles) continue to work fully.</p>
 <p>You can manage your AI data sharing preference at any time from the Settings screen within the app.</p>
 
@@ -129,7 +130,7 @@ Email: <a href="/cdn-cgi/l/email-protection#fa8e929f8c9b969f94999f9b8a8aba9d979b
     <li>Personalize your first AI Mentor conversation based on your specific circumstances</li>
     <li>Include relevant context in AI coaching prompts to provide more tailored guidance</li>
 </ul>
-<p>Quiz answers are never sent to any server independently. They are included as part of the AI coaching context only when you actively use AI features, under the same consent and data processing terms described above.</p>
+<p>Quiz answers are never sent to any server independently, and they are never shared with advertising partners. They are included as part of the AI coaching context only when you actively use AI features, under the same consent and data processing terms described above.</p>
 
 <h2>Voice Recordings</h2>
 <p>The Valence includes a voice recording feature for personal voice memos. In accordance with applicable requirements:</p>
@@ -141,38 +142,48 @@ Email: <a href="/cdn-cgi/l/email-protection#fa8e929f8c9b969f94999f9b8a8aba9d979b
 </ul>
 
 <h2>Subscriptions</h2>
-<p>The Valence offers optional premium subscriptions managed through Apple's App Store and RevenueCat. When you subscribe:</p>
+<p>The Valence offers optional premium subscriptions managed through Apple's App Store, Google Play, and RevenueCat. When you subscribe:</p>
 <ul>
-    <li>Payment is processed entirely by Apple. We do not collect or store your payment information.</li>
-    <li>RevenueCat receives an anonymous user identifier to manage your subscription status. No personal information is shared with RevenueCat.</li>
+    <li>Payment is processed entirely by Apple or Google. We do not collect or store your payment information.</li>
+    <li>RevenueCat receives an anonymous user identifier to manage your subscription status, and forwards subscription events (such as trial start, purchase, and renewal) to our advertising-measurement partner as described in the "Advertising Measurement" section below.</li>
     <li>Subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period.</li>
-    <li>You can manage or cancel your subscription at any time in your device's App Store settings.</li>
+    <li>You can manage or cancel your subscription at any time in your device's App Store or Google Play settings.</li>
 </ul>
 <h3>Free Trial</h3>
-<p>New users receive a 3-day free trial with full access to all premium features. The trial starts automatically when you complete onboarding. After the trial period, free users receive 3 AI credits per week. No payment information is required for the free trial. Trial eligibility is also available through Apple's subscription system, which tracks eligibility per Apple ID.</p>
+<p>Subscription plans may include a free introductory trial (currently 3 days) provided through Apple's or Google's subscription systems; trial eligibility is tracked per Apple ID / Google account. No payment information is collected by us. Free users receive a limited number of AI credits per week.</p>
+
+<h2>Advertising Measurement (AppsFlyer &amp; TikTok)</h2>
+<p>We advertise The Valence on platforms such as TikTok. To understand which of our own campaigns bring users to the app, we use <strong>AppsFlyer</strong>, a mobile measurement partner. For this purpose, the following data may be collected and shared with AppsFlyer and, in aggregated or matched form, with the advertising platform (e.g., TikTok):</p>
+<ul>
+    <li><strong>Device identifiers</strong> &mdash; on iOS, the advertising identifier (IDFA) only if you grant permission via the system tracking prompt, plus the vendor identifier (IDFV); on Android, the Google Advertising ID</li>
+    <li><strong>Technical information</strong> &mdash; device model, operating system version, app version, and IP address (from which an approximate, city-level location may be derived)</li>
+    <li><strong>Attribution events</strong> &mdash; app installs, app opens, and subscription events (trial start, purchase, renewal) forwarded server-side via RevenueCat</li>
+</ul>
+<p>This data is used solely to measure and optimize our own advertising. We never share your journal entries, coach conversations, voice recordings, screenshots, or quiz answers with advertising partners.</p>
+<p><strong>Your choices:</strong> On iOS, the system tracking prompt lets you decline &mdash; if you do, the IDFA is not used, and Apple's privacy-preserving SKAdNetwork framework provides only aggregate campaign results. You can change this choice anytime in iOS Settings &rarr; Privacy &amp; Security &rarr; Tracking. On Android, you can reset or delete your Advertising ID in device Settings &rarr; Google &rarr; Ads.</p>
+<p>AppsFlyer's handling of this data is described in the <a href="https://www.appsflyer.com/legal/privacy-policy/">AppsFlyer Privacy Policy</a>, and TikTok's in the <a href="https://ads.tiktok.com/i18n/official/policy/privacy">TikTok for Business Privacy Policy</a>.</p>
 
 <h2>Third-Party Services</h2>
 <p>The Valence uses the following third-party services:</p>
 <ul>
     <li><strong>Google Gemini API</strong> &mdash; AI feature processing. Data is transmitted only when you explicitly use AI features. Subject to <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
     <li><strong>Cloudflare Workers</strong> &mdash; API relay for infrastructure security between the app and Google Gemini.</li>
-    <li><strong>RevenueCat</strong> &mdash; subscription management using an anonymous user identifier. No personal information is shared. See <a href="https://www.revenuecat.com/privacy/">RevenueCat's Privacy Policy</a>.</li>
-    <li><strong>Firebase (Google)</strong> &mdash; backend infrastructure and app performance services. The app does not use Firebase Analytics, Firebase Crashlytics, or any Firebase user tracking features. See <a href="https://firebase.google.com/support/privacy">Firebase Privacy Policy</a>.</li>
+    <li><strong>RevenueCat</strong> &mdash; subscription management using an anonymous user identifier; forwards subscription events to AppsFlyer for advertising measurement. See <a href="https://www.revenuecat.com/privacy/">RevenueCat's Privacy Policy</a>.</li>
+    <li><strong>AppsFlyer</strong> &mdash; mobile measurement partner for our advertising campaigns, as described above. See the <a href="https://www.appsflyer.com/legal/privacy-policy/">AppsFlyer Privacy Policy</a>.</li>
+    <li><strong>TikTok for Business</strong> &mdash; advertising platform that receives attribution and campaign-measurement data. See the <a href="https://ads.tiktok.com/i18n/official/policy/privacy">TikTok for Business Privacy Policy</a>.</li>
+    <li><strong>Firebase (Google)</strong> &mdash; backend infrastructure: anonymous authentication, a minimal cloud account record (Firestore), push notifications (Firebase Cloud Messaging), and Firebase Analytics for in-app usage analytics. See the <a href="https://firebase.google.com/support/privacy">Firebase Privacy Policy</a>.</li>
     <li><strong>Google Fonts</strong> &mdash; used for typography rendering. Font files are bundled with the app.</li>
-    <li><strong>Apple App Store / TestFlight</strong> &mdash; used for app distribution and beta testing. Subject to <a href="https://www.apple.com/privacy/">Apple's Privacy Policy</a>.</li>
+    <li><strong>Apple App Store / TestFlight and Google Play</strong> &mdash; used for app distribution, billing, and beta testing. Subject to <a href="https://www.apple.com/privacy/">Apple's</a> and <a href="https://policies.google.com/privacy">Google's</a> privacy policies.</li>
 </ul>
-<p>All third-party providers used by The Valence follow industry-standard privacy and security practices. No advertising SDKs, no cross-app tracking, and no behavioral profiling tools are used.</p>
 
-<h2>What We Do NOT Collect</h2>
+<h2>What We Do NOT Do</h2>
 <p>We want to be explicit about what we do not do:</p>
 <ul>
-    <li>We do not require account creation, login, or registration.</li>
-    <li>We do not collect your email address, phone number, or any contact information.</li>
-    <li>We do not track your location or access your contacts, photos, or calendar.</li>
-    <li>We do not use any permanent device-based identifiers to track you.</li>
-    <li>We do not use advertising identifiers or tracking pixels.</li>
-    <li>We do not sell, share, or transfer any data to third parties for advertising, marketing, or profiling purposes.</li>
-    <li>We do not use cookies or web-based tracking mechanisms.</li>
+    <li>We do not require account creation, login, or registration &mdash; the app works with an anonymous identifier.</li>
+    <li>We do not collect your email address or phone number. If you email us, we use your address only to reply.</li>
+    <li>We do not access your contacts or calendar, and we do not collect precise (GPS) location.</li>
+    <li>We do not display third-party advertisements inside the app.</li>
+    <li>We do not sell your data, and we never share your journal entries, coach conversations, voice recordings, or quiz answers with advertisers or data brokers.</li>
 </ul>
 
 <h2>Data Retention and Deletion</h2>
@@ -183,6 +194,13 @@ Email: <a href="/cdn-cgi/l/email-protection#fa8e929f8c9b969f94999f9b8a8aba9d979b
     <li>Removing the app removes its locally stored app data from the device.</li>
     <li>Data sent to Google's Gemini API for processing is handled according to Google's data retention policies.</li>
 </ul>
+<h3>Data Deletion Requests</h3>
+<p>You can delete your data in two ways:</p>
+<ul>
+    <li><strong>In the app:</strong> Settings &rarr; Reset All Data erases everything stored on your device.</li>
+    <li><strong>Server-side data:</strong> to request deletion of your server-side data (your anonymous account record, name, and usage events held by us and our measurement partner), email <a href="mailto:info@thevalence.app">info@thevalence.app</a> with the subject "Delete my data". We complete deletion requests within 30 days.</li>
+</ul>
+<p>Subscription and billing records are held by Apple, Google, and RevenueCat under their own retention policies. AI content (chat messages, screenshots, voice recordings) is processed in real time and is not stored on our servers.</p>
 
 <h2>Data Security</h2>
 <p>All data stored on your device benefits from the security protections provided by your device's operating system, including device encryption. Communications with external APIs use HTTPS encryption. We recommend that you protect your device with a passcode or biometric authentication to further secure your data.</p>
@@ -193,12 +211,12 @@ Email: <a href="/cdn-cgi/l/email-protection#fa8e929f8c9b969f94999f9b8a8aba9d979b
 <h2>Your Rights (KVKK / GDPR)</h2>
 <p>If you are located in Turkey or the European Economic Area, you have the right to:</p>
 <ul>
-    <li>Access your personal data (all data is already visible to you in the app).</li>
-    <li>Delete your data at any time using the "Reset All Data" option in Settings.</li>
+    <li>Access your personal data (your recovery data is already visible to you in the app).</li>
+    <li>Delete your data at any time using the "Reset All Data" option in Settings, and request server-side deletion by email as described above.</li>
     <li>Withdraw consent for AI processing from the Settings screen or by simply not using AI features.</li>
+    <li>Opt out of advertising tracking at any time: on iOS via Settings &rarr; Privacy &amp; Security &rarr; Tracking, on Android via Settings &rarr; Google &rarr; Ads.</li>
     <li>Request information about how your data is processed by contacting us.</li>
 </ul>
-<p>Since all personal data is stored locally on your device and we do not maintain user accounts or databases, most data rights are automatically fulfilled by the app's design.</p>
 
 <h2>Data Breach Notification</h2>
 <p>In the unlikely event of a data breach affecting any user data processed through our services, we will notify affected users in accordance with applicable law by updating this privacy policy and, where possible, through in-app notification.</p>
@@ -207,4 +225,11 @@ Email: <a href="/cdn-cgi/l/email-protection#fa8e929f8c9b969f94999f9b8a8aba9d979b
 <p>We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
 
 <h2>Contact</h2>
-<p>If you have questions about this privacy policy or wish to exercise your data rights, contact us at <a href="/cdn-cgi/l/email-p
+<p>If you have questions about this privacy policy or wish to exercise your data rights, contact us at <a href="mailto:info@thevalence.app">info@thevalence.app</a>.</p>
+
+<div class="footer">
+    <p>&copy; 2026 The Valence. All rights reserved.</p>
+</div>
+
+</body>
+</html>
